@@ -1,0 +1,83 @@
+.gallery img {
+        width: 100%;
+            }
+
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    padding-top: 12px;
+        }
+
+#menu a {
+    color: #ffffff;
+    font-family: Helvetica,sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+        } 
+
+#menu a:hover {
+    color: #5077bd;
+                }
+
+                body, html {
+                    margin: 0;
+                    padding: 0;
+                    height: 100%;
+                  }
+                  
+                  .background {
+                    background-image: url('images/avengers_neon.jpg'); 
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-position: center;
+                    height: 100%;
+                    overflow: auto;
+                  }
+                  
+                  .content {
+                    background-color: rgba(0, 0, 0, 0.6); 
+                    color: white;
+                    padding: 40px;
+                    min-height: 200vh; 
+                  }
+                  
+                  .custom-bullets {
+                    list-style: none; 
+                    padding-left: 0;
+                  }
+                  
+                  .custom-bullets li {
+                    background: url('images/bullet.jpg') no-repeat left center; 
+                    background-size: 16px 16px; 
+                    padding-left: 24px; 
+                    font-family: 'Titillium Web', sans-serif;
+                    margin-bottom: 10px;
+                  }
+                  
+ h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+ h2 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+      }
+      
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+      }
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
